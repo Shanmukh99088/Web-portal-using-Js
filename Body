@@ -1,0 +1,167 @@
+# Web-portal-using-Js
+<div layout="row" name="Body" style="height: 535px">
+            <div flex="25" name="SideNavBar">
+                <section>
+                    <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia ('gt-md')"
+                                style="height: 535px">
+                        <md-list flex>
+                            <md-list-item ng-click="toggle.list1 =! toggle.list1">
+                                <md-icon>
+                                    <i class="material-icons">account_balance</i>
+                                </md-icon>
+                                <span flex>Menu 1</span>
+                                <md-icon ng-show="! toggle.list1">expand_more</md-icon>
+                                <md-icon ng-show="toggle.list1">expand_less</md-icon>
+                            </md-list-item>
+                            <md-list-item ng-show="toggle.list1" style="background: #e7e7e7">
+                                <div layout="column" flex>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 1
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 2
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 3
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 4
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 5
+                                        </div>
+                                    </a>
+                                </div>
+                            </md-list-item>
+                            <md-list-item ng-click="toggle.list2 =! toggle.list2">
+                                <md-icon>
+                                    <i class="material-icons">assessment</i>
+                                </md-icon>
+                                <span flex>Menu 2</span>
+                                <md-icon ng-show="! toggle.list2">expand_more</md-icon>
+                                <md-icon ng-show="toggle.list2">expand_less</md-icon>
+                            </md-list-item>
+
+                            <md-list-item ng-show="toggle.list2">
+                                <div layout="column" class="leftPaddingForSubMenu" flex>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 1
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 2
+                                        </div>
+                                    </a>
+                                </div>
+                            </md-list-item>
+
+                            <md-list-item ng-click="toggle.list3 =! toggle.list3">
+                                <md-icon>
+                                    <i class="material-icons">build</i>
+                                </md-icon>
+                                <span flex>Menu 3</span>
+                                <md-icon ng-show="! toggle.list3">expand_more</md-icon>
+                                <md-icon ng-show="toggle.list3">expand_less</md-icon>
+                            </md-list-item>
+                            <md-list-item ng-show="toggle.list3">
+                                <div layout="column" class="leftPaddingForSubMenu" flex>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 1
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 2
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 3
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 4
+                                        </div>
+                                    </a>
+                                </div>
+                            </md-list-item>
+                            <md-list-item ng-click="toggle.list4 =! toggle.list4">
+                                <md-icon>
+                                    <i class="material-icons">settings</i>
+                                </md-icon>
+                                <span flex>Menu 4</span>
+                                <md-icon ng-show="! toggle.list4">expand_more</md-icon>
+                                <md-icon ng-show="toggle.list4">expand_less</md-icon>
+                            </md-list-item>
+                            <md-list-item ng-show="toggle.list4">
+                                <div layout="column" class="leftPaddingForSubMenu" flex>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 1
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 2
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 3
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 4
+                                        </div>
+                                    </a>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 5
+                                        </div>
+                                    </a>
+                                </div>
+                            </md-list-item>
+
+                            <md-list-item ng-click="toggle.list5 =! toggle.list5">
+                                <md-icon>
+                                    <i class="material-icons">work</i>
+                                </md-icon>
+                                <span flex>Menu 5</span>
+                                <md-icon ng-show="! toggle.list5">expand_more</md-icon>
+                                <md-icon ng-show="toggle.list5">expand_less</md-icon>
+                            </md-list-item>
+                            <md-list-item ng-show="toggle.list5">
+                                <div layout="column" class="leftPaddingForSubMenu" flex>
+                                    <a href="#" class="hrefTextDecoration">
+                                        <div class="inset">
+                                            Sub Menu 1
+                                        </div>
+                                    </a>
+                                </div>
+                            </md-list-item>
+                        </md-list>
+                    </md-sidenav>
+                </section>
+            </div>
+
+            <div flex="75" name="dynamicView">
+                <div style="border: ridge; width: 100px">
+                    <i class="material-icons" style="font-size: 100px">home</i>
+                </div>
+                <h1>you can use this side as dynamic view (ui-view) </h1>
+            </div>
+        </div>
