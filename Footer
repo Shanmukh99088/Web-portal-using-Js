@@ -1,0 +1,8 @@
+# Web-portal-using-Js
+<div name="footer">
+            <md-toolbar>
+                <div class="md-toolbar-tools" layout-align="center center">
+                    <a href="https://www.codingpot.com">CodingPot</a>
+                </div>
+            </md-toolbar>
+</div>
